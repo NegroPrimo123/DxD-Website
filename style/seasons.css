@@ -1,0 +1,47 @@
+body {
+    background-image: url("../assets/img/akeno.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    background-attachment: scroll;
+
+    /* Минус отступы! */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Навигационная понелька */
+.navbar {
+    background-color: black;
+    padding: 15px, 0;
+}
+
+.nav-container {
+    max-width: 1200px; 
+    margin-left: 75px; 
+    padding: 15px 20px;
+} 
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-item a:hover {
+    background-color: #ac230b;
+}
+
+.nav-item a.active {
+    background-color: #dbd8e6;
+}
